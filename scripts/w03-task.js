@@ -14,7 +14,7 @@ function addNumbers(){
 document.querySelector('#addNumbers') .addEventListener('click', addNumbers);
 
 /* Function Expression - Subtract Numbers */
-function Subtract (number1, number2) {
+const Subtract = (number1,number2) => {
     return number1-number2;
 }
 function SubtractNumbers(){
@@ -26,7 +26,7 @@ function SubtractNumbers(){
 document.querySelector('#subtractNumbers') .addEventListener('click', SubtractNumbers);
 
 /* Arrow Function - Multiply Numbers */
-function Multiply (number1,number2){
+const Multiply = (number1,number2) =>{
     return number1*number2;
 }
 function MultiplyNumbers(){
